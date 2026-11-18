@@ -90,7 +90,7 @@ const marketplaceProducts = [
         categoryLabel: "BARBERSHOP",
         description: "A modern barbershop website designed to showcase haircut styles, attract customers and make booking easier.",
         technologies: ["HTML", "CSS", "JavaScript"],
-        image: "Images/Youn.webp",
+        image: "Images/youn.webp",
         demo: "https://courageous-boba-24912a.netlify.app/",
         price: "₦150,000",
         purchaseLink: "https://wa.me/2349167579605?text=Hello%20YoungPhil,%20I'm%20interested%20in%20buying%20the%20YoungCut%20website."
@@ -103,7 +103,7 @@ const marketplaceProducts = [
         categoryLabel: "RESTAURANT",
         description: "A modern restaurant platform featuring a digital menu, food ordering, customer reviews, reservations and an admin dashboard.",
         technologies: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB", "Admin Dashboard"],
-        image: "images/Sava.webp",
+        image: "images/sava.webp",
         demo: "https://tubular-mooncake-c836d6.netlify.app/",
         price: "Contact for price",
         purchaseLink: "https://wa.me/2349167579605?text=Hello%20YoungPhil,%20I'm%20interested%20in%20the%20Savanna%20Bites%20website."
@@ -111,13 +111,13 @@ const marketplaceProducts = [
 
 
     {
-        id: 4,
+        id: 3,
         name: "LUMEN Photography Platform",
         category: "portfolio",
         categoryLabel: "FULL-STACK PHOTOGRAPHY",
         description: "A premium photography platform featuring an elegant portfolio website and an admin dashboard that allows photographers to manage, upload and organize their portfolio work.",
         technologies: ["HTML", "CSS", "JavaScript", "Backend", "Admin Dashboard"],
-        image: "images/Lumen.webp",
+        image: "images/lumen.webp",
         demo: "https://jocular-toffee-af201b.netlify.app",
         price: "Contact for price",
         purchaseLink: "https://wa.me/2349167579605?text=Hello%20YoungPhil,%20I'm%20interested%20in%20the%20LUMEN%20Photography%20Platform."

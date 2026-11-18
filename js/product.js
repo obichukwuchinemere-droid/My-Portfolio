@@ -27,7 +27,7 @@ const marketplaceProducts = [
     },
     
     {
-        id: 4,
+        id: 3,
         name: "LUMEN Photography Platform",
         categoryLabel: "FULL-STACK PHOTOGRAPHY",
         description: "A premium photography platform featuring an elegant portfolio website and an admin dashboard that allows photographers to manage, upload and organize their portfolio work.",
