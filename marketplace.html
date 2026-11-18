@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Marketplace | YoungPhil</title>
+    <meta name="description" content="Explore professionally designed, ready-made websites by YoungPhil. Find a website for your business and bring your ideas online.">
+    <meta name="theme-color" content="#050510">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!--Icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/marketplace.css">
+</head>
+<body>
+
+    <!-- PAGE LOADER -->
+    <div class="market-loader" id="market-loader">
+        <div class="market-loader-content">
+            <span>YOUNGPHIL<span>.</span></span>
+            <div class="market-loader-line"></div>
+        </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <header class="market-header">
+
+        <nav class="market-navbar">
+
+            <a href="index.html" class="market-logo">
+                YOUNGPHIL<span>.</span>
+            </a>
+
+            <div class="market-nav-links" id="market-nav-links">
+
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#projects">Projects</a>
+                <a href="index.html#services">Services</a>
+                <a href="marketplace.html" class="market-active">Marketplace</a>
+
+            </div>
+
+            <a href="#marketplace-products" class="market-nav-cta">
+                Explore Websites <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </a>
+
+            <button
+                class="market-menu-toggle"
+                id="market-menu-toggle"
+                aria-label="Open navigation"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- MARKETPLACE HERO -->
+        <section class="market-hero" id="market-home">
+
+            <div class="market-hero-glow market-glow-one"></div>
+            <div class="market-hero-glow market-glow-two"></div>
+
+            <div class="market-hero-content">
+
+                <div class="market-eyebrow">
+                    <span></span>
+                    YOUNGPHIL DIGITAL MARKETPLACE
+                </div>
+
+                <h1>
+                    Your next website
+                    <span>starts here.</span>
+                </h1>
+
+                <p>
+                    Discover professionally crafted websites
+                    designed to help businesses build their
+                    online presence. Choose a design, explore
+                    the demo and bring your business online.
+                </p>
+
+                <div class="market-hero-actions">
+
+                    <a href="#marketplace-products" class="market-primary-btn">
+                        Explore Collection <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                    </a>
+
+                    <a href="index.html" class="market-secondary-btn">
+                        Meet the Developer
+                    </a>
+
+                </div>
+
+                <div class="market-hero-note">
+                    <span class="market-note-dot"></span>
+                    DIGITAL WEBSITES. BUILT WITH PURPOSE.
+                </div>
+
+            </div>
+
+
+            <!-- HERO VISUAL -->
+            <div class="market-hero-visual">
+
+                <div class="market-orbit market-orbit-one"></div>
+                <div class="market-orbit market-orbit-two"></div>
+
+                <div class="market-floating-card market-card-back">
+                    <span>DESIGN</span>
+                    <div class="market-mini-lines">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                </div>
+
+                <div class="market-floating-card market-card-main">
+
+                    <div class="market-card-top">
+                        <span class="market-card-dot"></span>
+                        <span class="market-card-dot"></span>
+                        <span class="market-card-dot"></span>
+                        <span>LIVE PREVIEW</span>
+                    </div>
+
+                    <div class="market-preview-content">
+                        <span>YOUR BUSINESS</span>
+                        <h3>Make your<br>first impression count.</h3>
+                        <div class="market-preview-button"></div>
+                    </div>
+
+                </div>
+
+                <div class="market-floating-tag">
+                    <span>✦</span>
+                    DIGITAL EXPERIENCES
+                </div>
+
+            </div>
+
+            <div class="market-hero-scroll">
+                <span>SCROLL TO EXPLORE</span>
+                <div></div>
+            </div>
+
+        </section>
+
+
+        <!-- MARKETPLACE COLLECTION -->
+        <section class="market-collection" id="marketplace-products">
+
+            <div class="market-section-heading">
+
+                <div>
+                    <span class="market-section-label">
+                        01 / THE COLLECTION
+                    </span>
+
+                    <h2>
+                        Find your perfect
+                        <span>website.</span>
+                    </h2>
+
+                    <p>
+                        Explore ready-made website designs
+                        created for different industries and
+                        business needs.
+                    </p>
+                </div>
+
+                <div class="market-collection-count">
+                    <span>COLLECTION</span>
+                    <strong id="market-result-count">0</strong>
+                    <span>WEBSITES</span>
+                </div>
+
+            </div>
+
+
+            <!-- SEARCH AND FILTERS -->
+            <div class="market-controls">
+
+                <div class="market-search">
+
+                    <span>⌕</span>
+
+                    <input
+                        type="search"
+                        id="market-search"
+                        placeholder="Search websites..."
+                        aria-label="Search websites"
+                    >
+
+                    <span class="market-search-shortcut">SEARCH</span>
+
+                </div>
+
+                <div class="market-filters" id="market-filters">
+
+                    <button class="market-filter active" data-category="all">
+                        All Websites
+                    </button>
+
+                    <button class="market-filter" data-category="business">
+                        Business
+                    </button>
+
+                    <button class="market-filter" data-category="restaurant">
+                        Restaurant
+                    </button>
+
+                    <button class="market-filter" data-category="beauty">
+                        Beauty & Salon
+                    </button>
+
+                    <button class="market-filter" data-category="portfolio">
+                        Portfolio
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- WEBSITE LISTINGS -->
+            <div class="market-grid" id="market-grid">
+
+                <!-- Website cards will be added here -->
+
+            </div>
+
+
+            <!-- EMPTY STATE -->
+            <div class="market-empty" id="market-empty">
+
+                <div class="market-empty-icon">✦</div>
+
+                <h3>Something exciting is coming.</h3>
+
+                <p>
+                    Our website collection is being prepared.
+                    Check back soon for available designs.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CUSTOM WEBSITE CTA -->
+        <section class="market-custom">
+
+            <div class="market-custom-glow"></div>
+
+            <div class="market-custom-content">
+
+                <span class="market-section-label">
+                    HAVE SOMETHING DIFFERENT IN MIND?
+                </span>
+
+                <h2>
+                    Don't see what
+                    <span>you're looking for?</span>
+                </h2>
+
+                <p>
+                    Let's create a custom website designed
+                    around your brand, goals and business needs.
+                </p>
+
+                <a href="index.html#contact" class="market-primary-btn">
+                    Build a Custom Website <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="market-footer">
+
+        <div class="market-footer-top">
+
+            <a href="index.html" class="market-logo">
+                YOUNGPHIL<span>.</span>
+            </a>
+
+            <p>
+                Turning ideas into meaningful digital experiences.
+            </p>
+
+            <a href="#market-home" class="market-back-top">
+                BACK TO TOP ↑
+            </a>
+
+        </div>
+
+        <div class="market-footer-divider"></div>
+
+        <div class="market-footer-bottom">
+
+            <p>© 2026 YoungPhil. All rights reserved.</p>
+
+            <div>
+                <a href="index.html">Portfolio</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.14.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.14.2/ScrollTrigger.min.js"></script>
+
+    <script src="js/marketplace.js"></script>
+
+</body>
+</html>
