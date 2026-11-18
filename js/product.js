@@ -171,7 +171,7 @@ if (relatedProductsGrid) {
                 <h3>${item.name}</h3>
 
                 <a href="product.html?id=${item.id}">
-                    Explore Website ↗
+                    Explore Website <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
 
             </div>

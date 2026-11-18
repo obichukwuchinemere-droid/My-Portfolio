@@ -201,7 +201,7 @@ function renderMarketplace() {
                 </span>
 
                 <a href="product.html?id=${product.id}" class="market-product-preview">
-                    View Details ↗
+                    View Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
             </div>
 
@@ -225,7 +225,7 @@ function renderMarketplace() {
                     </div>
 
                     <a href="product.html?id=${product.id}" class="market-product-buy">
-                        View Website Details ↗
+                        View Website Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
 
                 </div>
