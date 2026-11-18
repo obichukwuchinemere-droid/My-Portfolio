@@ -599,7 +599,7 @@ const contactForm = document.getElementById("contact-form");
 
 // Replace this with your WhatsApp number.
 // Include country code, without +, spaces or dashes.
-const whatsappNumber = "2349161711509";
+const whatsappNumber = "2349167579605";
 
 if (contactForm) {
 
