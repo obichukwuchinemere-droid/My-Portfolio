@@ -10,7 +10,7 @@ const marketplaceProducts = [
         description: "A modern barbershop website designed to showcase haircut styles, attract customers and make booking easier.",
         technologies: ["HTML", "CSS", "JavaScript"],
         image: "Images/youn.webp",
-        demo: "https://courageous-boba-24912a.netlify.app/",
+        demo: "https://youngcut.vercel.app/",
         price: "₦150,000",
         purchaseLink: "https://wa.me/2349167579605"
     },
